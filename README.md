@@ -42,13 +42,14 @@ Built with the latest in web technology — **React 19**, **Vite**, and **Tailwi
 > Add visual examples of:
 > - Home Page ("./public/Home.png") 
 > - Product Listings  ("./public/Product.png")
-> - Cart Page  
-> - Checkout Flow  
-> - Location Integration
+> - Cart Page  ("./public/Cart.png")
 
 
+## ⚙️ Installation & Development
 
+```bash
 # 1. Install dependencies
 npm install
----------------
+
+# 2. Start development server
 npm run dev
