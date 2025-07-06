@@ -26,11 +26,13 @@ function Products() {
   const handeCategoryChange = (e) => {
     setCategory(e.target.value);
     setPage(1);
+    window.scrollTo(0, 0);
     setOpenFilter(false);
   };
   const handleBrandChange = (e) => {
     setBrand(e.target.value);
     setPage(1);
+    window.scrollTo(0, 0); 
     setOpenFilter(false);
   };
 

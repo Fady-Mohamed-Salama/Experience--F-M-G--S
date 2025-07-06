@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import SingleProduct from "./pages/SingleProduct";
 import CategoryProduct from "./pages/CategoryProduct";
 import ProtectedRoute from "./components/ProtectedRoute";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Navbar
         location={location}
         getLocation={getLocation}
