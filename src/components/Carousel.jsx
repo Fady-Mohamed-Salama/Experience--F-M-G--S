@@ -74,12 +74,13 @@ const Carousel = () => {
   var settings = {
     dots: false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
+    cssEase: "ease-in-out", 
     nextArrow: <SampleNextArrow to="text" />,
     prevArrow: <SamplePrevArrow to="prev" />,
   };
